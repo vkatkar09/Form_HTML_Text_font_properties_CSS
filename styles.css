@@ -1,0 +1,42 @@
+*{
+    background-color:yellow;
+    font-size:55px;
+}
+/* div#item1 {
+    width:200px;
+    height:200px;
+    background-color:blueviolet;
+    border:2px solid red;
+} */
+div.item1o1{
+    width:200px;
+    height:200px;
+    background-color:rgb(238, 9, 78);
+    border:2px solid red;
+    font-size:20px;
+}
+div.item2{
+    width:200px;
+    height:200px;
+    background-color:rgb(11, 165, 255);
+    border:2px solid green;
+    /* margin-left:150px;
+    margin-top:100px; */
+    /* margin:0px auto; */
+    margin:80px;
+    padding:20px;
+    text-align: center;
+    line-height: 200px;
+}
+p {
+    font-size:20px;
+    /* font-family: 'Barriecito', cursive; */
+    font-weight: bold;
+    text-transform: uppercase;
+    /* word-spacing: 20px; */
+    /* letter-spacing: 20px; */
+    text-align: left;
+    color:hotpink;
+    /* text-decoration: overline; */
+    /* text-indent: -160px; */
+}

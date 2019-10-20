@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form Data
+        </title>
+    </head>
+    <body>
+        <h2>Form Validation</h2>
+        <fieldset>
+            <legend>CREATING FORM</legend>
+            <form method="POST" action="https://www.facebook.com/">
+                <label name="firstname">FirstName</label>
+                <input type="text"
+                    name="firstname"
+                    maxlength="5"
+                    required
+                    placeholder="enter your firstname">
+                
+                <label name="password">Password</label>
+                <input type="password"
+                name="password"
+                placeholder="enter your password"
+                required
+                >
+                <br/><br/>
+                
+                <label for="email">Email</label>
+                <input type="email"
+                       name="email"
+                       placeholder="enter your mailId"
+                       required
+                >
+               
+                <label name="gender">Gender</label>
+                <input type="radio" name="gender" checked>male
+                <input type="radio" name="gender">female
+           <br/>
+           <br/>
+                <label name="country">Country</label>
+                <select name="country">
+                    <option>=====country=======</option>
+                    <option selected>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>Austria</option>
+                </select>
+            
+                <label name="DOB">DOB</label>
+                <input type="date">
+            <br><br>
+                <input type="color">
+                    
+                <input type="file">
+            <br><br>
+                <input type="checkbox" name="sports">Cricket
+                <input type="checkbox" name="sports" checked>football
+                <input type="checkbox" name="sports">All
+             <br/><br/>
+            <input type="submit"
+                disabled
+                value="submit">
+            <button type="reset">Reset</button>
+            </form>
+        </fieldset>
+    </body>
+</html>
